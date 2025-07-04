@@ -89,7 +89,7 @@ const animals = [
   { number: 87, name: "puma", image: "images/87_puma.png" },
   { number: 88, name: "rana", image: "images/88_rana.png" },
   { number: 89, name: "sardina", image: "images/89_sardina.png" },
-  { number: 90, name: "saltamontes", image: "images/90_saltamotes.png" },
+  { number: 90, name: "saltamontes", image: "images/90_saltamontes.png" },
   { number: 91, name: "sapo", image: "images/91_sapo.png" },
   { number: 92, name: "sietecueros", image: "images/92_sietecueros.png" },
   { number: 93, name: "tiburon", image: "images/93_tiburon.png" },
