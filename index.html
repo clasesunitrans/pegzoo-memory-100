@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PegZoo Memory</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PegZoo Memory 100</h1>
+    <h4>To practice association between numbers and animals</h4>
+    <h3>➜ First, choose Animal to Number or Number to Animal</h3>
+    <div class="mode-selection">
+      <label>
+        <input type="radio" name="mode" value="animal" checked /> Animal ➜ Número  
+      </label>
+      <label>
+        <input type="radio" name="mode" value="number" /> Número ➜ Animal
+      </label>
+      <button id="startBtn">Iniciar Partida</button>
+    </div>
+
+    <div class="game-area hidden">
+      <div id="promptArea"></div>
+
+      <!-- En el lugar donde quieras que aparezca la etiqueta -->
+      <!--<label for="answerInput"> -->
+      <strong id="label-mode">Número:</strong>
+      <!-- </label> -->
+      
+        
+      <input type="text" id="answerInput" placeholder="Tu respuesta..." />
+      <button id="submitBtn">Enter</button>
+
+      <div id="feedback"></div>
+      <div id="scoreboard">
+        Intento: <span id="attemptNumber">0</span> / 10 |
+        Tiempo actual: <span id="currentTime">0</span> s |
+        Promedio: <span id="averageTime">0</span> s <br>
+        Correctas: <span id="correctCount">0</span> |
+        Incorrectas: <span id="incorrectCount">0</span>
+</div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Felipe Martinez - fmartinezb@gmail.com
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
