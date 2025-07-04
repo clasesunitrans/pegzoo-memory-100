@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #f7b633;
+}
+h4 {
+  text-align: center;
+  color: #73c2fb;
+}
+.mode-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#promptArea {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#answerInput {
+  width: 96%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+#submitBtn, #startBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #73c2fb;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#submitBtn:hover, #startBtn:hover {
+  background: #f7b633;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#scoreboard {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #555;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #888;
+}
